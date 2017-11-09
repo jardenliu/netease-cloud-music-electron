@@ -5,11 +5,11 @@
 </template>
 
 <script>
-  export default {
-    name: 'netease-cloud-music-electron'
-  }
+export default {
+  name: "netease-cloud-music-electron"
+};
 </script>
 
 <style>
-  /* CSS */
+/* CSS */
 </style>

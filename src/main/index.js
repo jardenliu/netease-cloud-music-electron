@@ -24,8 +24,10 @@ function createWindow() {
    */
   mainWindow = new BrowserWindow({
     height: 670,
+    minHeight: 670,
     useContentSize: false,
     titleBarStyle: 'hidden',
+    minWidth: 1002,
     width: process.env.NODE_ENV === 'development' ? 1502 : 1002
   })
 
