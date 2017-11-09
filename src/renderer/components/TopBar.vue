@@ -10,9 +10,10 @@
               </button>
             <button class="forward-button"><img  src="~@/assets/icons/forward.png"  alt="forward"></button>
           </div>
-          <div>
-            <img src="~@/assets/icons/search.png" alt="">
-            <input type="text">
+          <div flex="cross:center">
+            <div flex="cross:center"><img src="~@/assets/icons/search.png" alt=""></div>
+            <div><input type="text"></div>
+            <div></div>
           </div>
         </div>
         <div>
