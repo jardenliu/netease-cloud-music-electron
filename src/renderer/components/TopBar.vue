@@ -6,9 +6,13 @@
           <div style="margin-top:2px"><img src="~@/assets/netease_cloud_music.png"  alt=""></div>
           <div style="margin-left:63px;" flex>
             <button class="backward-button">
-              <img  src="~@/assets/backward.png"  alt="backward">
+              <img  src="~@/assets/icons/backward.png"  alt="backward">
               </button>
-            <button class="forward-button"><img  src="~@/assets/forward.png"  alt="forward"></button>
+            <button class="forward-button"><img  src="~@/assets/icons/forward.png"  alt="forward"></button>
+          </div>
+          <div>
+            <img src="~@/assets/icons/search.png" alt="">
+            <input type="text">
           </div>
         </div>
         <div>
