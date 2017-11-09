@@ -1,0 +1,39 @@
+@import "variables";
+@import "mixins";
+.ncme-top-bar {
+    background-color: $primary;
+    color: white;
+    -webkit-app-region: drag;
+}
+
+.ncme-top-bar .platfrom-osx-top-bar {
+    padding-top: 14px;
+    padding-bottom: 3px;
+}
+
+.ncme-top-bar-content {
+    padding-top: 6px;
+    color: white;
+}
+
+.ncme-top-bar-content .backward-button {
+    @include direction-button-default;
+    width: 26px;
+    border-right: none;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.ncme-top-bar-content .backward-button:focus {
+    @include direction-button-default-focus;
+}
+
+.ncme-top-bar-content .forward-button {
+    @include direction-button-default;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.ncme-top-bar-content .forward-button:focus {
+    @include direction-button-default-focus;
+}

@@ -9,7 +9,3 @@ export default {
   name: "netease-cloud-music-electron"
 };
 </script>
-
-<style>
-/* CSS */
-</style>

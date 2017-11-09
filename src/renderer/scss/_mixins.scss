@@ -1,0 +1,14 @@
+@import "variables";
+//direction-button
+@mixin direction-button-default {
+    height: 27px;
+    width: 27px;
+    border: 1px solid #A20F08;
+    background: inherit;
+    color: white;
+}
+
+@mixin direction-button-default-focus {
+    outline-color: #ef7b7b;
+    outline-width: 1px;
+}

@@ -7,7 +7,9 @@
 
 ``` bash
 #set electron mirror domain(chinese user)
-ELECTRON_MIRROR=http://npm.taobao.org/mirrors/electron/ npm install -g electron
+ELECTRON_MIRROR=http://npm.taobao.org/mirrors/electron/ 
+#windows user
+set ELECTRON_MIRROR=http://npm.taobao.org/mirrors/electron/ 
 
 # install dependencies
 npm install
