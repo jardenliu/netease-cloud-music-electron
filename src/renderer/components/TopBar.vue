@@ -3,10 +3,10 @@
   <div class="platfrom-osx-top-bar" v-if="platform == 'darwin'">
     <div class="ncme-top-bar-content" flex="main:justify cross:center">
       <div style="padding-left:9px;height:37px" flex="cross:center">
-        <div style="margin-top:2px;    cursor: pointer;">
-          <img src="~@/assets/netease_cloud_music.png" alt="">
+        <div style="margin-top:2px;margin-left:10px;cursor: pointer;">
+          <img src="~@/assets/logo.png" alt="">
         </div>
-        <div style="margin-left:63px;" flex>
+        <div style="margin-left:71px;" flex>
           <button class="backward-button">
             <img src="~@/assets/icons/backward.png" alt="backward">
           </button>

@@ -1,7 +1,7 @@
 @import "variables";
 @import "mixins";
 .ncme-top-bar {
-    background-color: $primary;
+    background: $primary-background;
     color: white;
     -webkit-app-region: drag;
 }

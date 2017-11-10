@@ -2,7 +2,7 @@
 <div class="search-box" flex="cross:center">
     <div class="search-box-content" flex="cross:center">
         <div flex="cross:center">
-            <img src="~@/assets/icons/search.png" alt="search_icon">
+            <img src="~@/assets/icons/search.png"  style="position: relative;left: -5px;" alt="search_icon">
         </div>
         <div flex="cross:center">
             <input type="text" placeholder="搜索音乐，歌手，歌词，用户">
@@ -30,8 +30,8 @@ export default {};
 .search-box-content input {
   border: none;
   height: 22px;
-  margin-left: 5px;
-  width: 188px;
+  margin-left: -5px;
+  width: 194px;
   font-size: 14px;
 }
 .search-box-content input:focus {
