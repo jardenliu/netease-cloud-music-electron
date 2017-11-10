@@ -38,7 +38,7 @@ export default {};
   outline: none;
 }
 .search-box-content input::-webkit-input-placeholder {
-  font-size: 12px !important;
+  font-size: 11.5px !important;
   color: #a2a2a2;
 }
 
