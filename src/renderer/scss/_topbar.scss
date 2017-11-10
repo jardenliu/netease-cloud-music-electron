@@ -16,12 +16,41 @@
     color: white;
 }
 
+.platfrom-win32-top-bar .ncme-top-bar-content {
+    height: 45px;
+}
+
+.ncme-top-bar-left {
+    padding-left: 9px;
+    height: 37px;
+}
+
+.platfrom-win32-top-bar .ncme-top-bar-logo {
+    margin-top: 1px;
+    margin-left: 2px;
+    cursor: pointer;
+}
+
+.platfrom-darwin-top-bar .ncme-top-bar-logo {
+    margin-top: 2px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
 .ncme-top-bar-content .backward-button {
     @include direction-button-default;
     width: 26px;
     border-right: none;
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
+}
+
+.platfrom-win32-top-bar .direction-buttons {
+    margin-left: 64px;
+}
+
+.platfrom-darwin-top-bar .direction-buttons {
+    margin-left: 71px;
 }
 
 .ncme-top-bar-content .backward-button:focus {
@@ -44,4 +73,27 @@
 
 .ncme-top-bar-content .forward-button img {
     @include direction-button-defaul-icon;
+}
+
+.platfrom-win32-top-bar .direction-buttons img {
+    top: 0 !important;
+}
+
+.platfrom-win32-top-bar .direction-buttons button {
+    height: 22px !important;
+}
+
+.ncme-top-bar-content .platfrom-darwin-user-logo-box {
+    position: relative;
+    width: 64px;
+}
+
+.ncme-top-bar-content .platfrom-darwin-user-logo-box:before {
+    position: absolute;
+    content: " ";
+    height: 60px;
+    width: 1px;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    top: -27px;
+    left: -2px;
 }

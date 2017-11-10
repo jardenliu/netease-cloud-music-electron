@@ -26,8 +26,8 @@ function createWindow() {
     height: 670,
     minHeight: 670,
     useContentSize: false,
-    titleBarStyle: 'hidden',
-    frame: false,
+    // titleBarStyle: 'hidden',
+    // frame: false,
     minWidth: 1002,
     width: process.env.NODE_ENV === 'development' ? 1502 : 1002
   })
