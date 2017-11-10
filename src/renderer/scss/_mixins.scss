@@ -9,6 +9,13 @@
 }
 
 @mixin direction-button-default-focus {
-    outline-color: #ef7b7b;
-    outline-width: 1px;
+    // outline-color: #ef7b7b;
+    // outline-width: 1px;
+    outline: none;
+}
+
+@mixin direction-button-defaul-icon {
+    position: relative;
+    left: -2px;
+    top: 1px;
 }

@@ -28,6 +28,10 @@
     @include direction-button-default-focus;
 }
 
+.ncme-top-bar-content .backward-button img {
+    @include direction-button-defaul-icon;
+}
+
 .ncme-top-bar-content .forward-button {
     @include direction-button-default;
     border-top-right-radius: 3px;
@@ -36,4 +40,8 @@
 
 .ncme-top-bar-content .forward-button:focus {
     @include direction-button-default-focus;
+}
+
+.ncme-top-bar-content .forward-button img {
+    @include direction-button-defaul-icon;
 }
